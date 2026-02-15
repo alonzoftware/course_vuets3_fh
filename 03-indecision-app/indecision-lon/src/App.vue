@@ -1,15 +1,11 @@
-
 <template>
   <h1>Indecision App</h1>
   <hr />
-  <MyCounter />
-
+  <MyCounter v-bind:value="11" />
 </template>
 
 <script setup lang="ts">
 import MyCounter from './components/MyCounter.vue';
-
-
 </script>
 <style scoped>
 h1 {
