@@ -16,11 +16,11 @@ import { computed, ref } from 'vue';
 // Define the props with TypeScript interface
 //-------------------------------------------
 interface Props {
-  // value?: number;
-  value: {
-    type: Number;
-    required: true;
-  };
+  value: number;
+  // value: {
+  //   type: number;
+  //   required: true;
+  // };
 }
 const props = defineProps<Props>();
 //-------------------------------------------
